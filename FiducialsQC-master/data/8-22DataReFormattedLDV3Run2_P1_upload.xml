@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ROOT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <OGPMEASUREMENT>
+        <ID>testID</ID>
+        <INSTITUTION>UCSB</INSTITUTION>
+        <PLACEMENT_ANGLE>
+            <FIDUCIAL1>124.68307284897415</FIDUCIAL1>
+            <FIDUCIAL2>124.69546399809481</FIDUCIAL2>
+        </PLACEMENT_ANGLE>
+        <PLACEMENT_POSITION>
+            <X>0.03699999999999193</X>
+            <Y>0.08674999999998789</Y>
+        </PLACEMENT_POSITION>
+        <HEIGHTS>
+            <MEAN>0</MEAN>
+            <MIN>0</MIN>
+            <MAX>0</MAX>
+        </HEIGHTS>
+        <GRADE>RED</GRADE>
+        <COMMENT>The angle of the sensor in position P1 is RED. 
+The placement of the sensor in position P1 is YELLOW. 
+The FINAL rating of the module in position P1 is RED.
+</COMMENT>
+    </OGPMEASUREMENT>
+</ROOT>

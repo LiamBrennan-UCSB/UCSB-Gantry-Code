@@ -1,0 +1,73 @@
+How Matt's Code works
+
+Order of operations
+
+1. GetExcel
+2. ReadDataFrame
+3. Transform Coordinates
+4. QualityControl
+5. CreateXML 
+6. HeightPlotter
+7. FiducialComparison
+
+
+How each works
+
+GetExcel - Gets the Excel File from the website. 
+Is used in FiducialComparison to find and read the files
+
+
+2) ReadDataFrame - 
+
+Creates the file that is later read. Reads the Excel File
+
+Init -
+
+sets up the various open lists that can be used
+setdefaultHXY - sets the default 25 heights
+
+GetColumn -
+
+creates a column (?)
+
+checkColums -
+
+No idea
+
+
+getComponents - 
+
+helps decide which version of the  we are using
+
+
+
+
+sortTuple - 
+
+sorts the tuple so it goes, top right, top left, bottom right, bottom left
+
+I have no idea how this actually works
+
+
+
+
+ReadComponentHeights
+
+Pulls the components
+
+attribute uses getColumn
+
+
+
+
+
+
+
+
+
+
+ReadComponentFiducials
+
+readComponentHeights
+
+
